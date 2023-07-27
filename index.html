@@ -44,7 +44,8 @@
   <header class="container mx-auto">
     <div class="md:mb-5 mt-5 ">
       <div class="navbar rounded-full bg-none md:bg-[#F85559]">
-        <div class="navbar-start">
+        <!-- menu bar -->
+        <div class="navbar-start md:navbar-start">
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal text-white px-1">
               <li><a>Home</a></li>
@@ -72,23 +73,27 @@
 
 
         </div>
-
-        <div class="navbar-center">
+        <!--  logo ace  -->
+        <div class="navbar-end md:navbar-center md:pr-32  lg:pr-72">
           <a class="btn btn-ghost md:text-white normal-case text-xl"><img class="w-[35px]" src="./images/logo.png"
               alt="">Fruit Brust</a>
         </div>
-       
-          <div class="navbar-end">
-            <div class="hidden md:block">
-              <input type="text" placeholder="Search here" class="rounded-full p-3 input w-full max-w-xs" />
-            </div>
-          
-            <div class="hidden md:block -ml-7">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-            </div>
-  
+        <!-- search bar  -->
+        <div class=" md:navbar-end pr-2">
+          <div class="hidden md:block">
+            <input type="text" placeholder="Search here" class="rounded-full p-3 input w-full max-w-xs" />
           </div>
-        
+
+          <div class="hidden md:block -ml-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+
+        </div>
+
       </div>
     </div>
   </header>
@@ -176,9 +181,10 @@
         </div>
       </div>
     </section>
-  <!-- all fruits unter banner  -->
+    <!-- all fruits unter banner  -->
     <section class="md:relative">
-      <div class="hidden lg:grid md:grid-cols-5 w-[1000px] mx-auto bg-[#FFFFFF] drop-shadow h-[170px] items-center -mt-20">
+      <div
+        class="hidden lg:grid md:grid-cols-5 w-[1000px] mx-auto bg-[#FFFFFF] drop-shadow h-[170px] items-center -mt-20">
         <div><img src="./images/fruit1.png" alt=""></div>
         <div><img src="./images/fruit2.png" alt=""></div>
         <div><img src="./images/fruit3.png" alt=""></div>
@@ -194,7 +200,8 @@
           <div class="hero-content flex-col lg:flex-row">
             <div class="text-center lg:text-left">
               <h1 class="text-4xl md:text-4xl  lg:text-5xl font-bold mb-4">Deal of the day</h1>
-              <p class="text-sm md:w-[500px] lg:w-1/2">Contrary to popular belief, is not simply random text. It has roots in a piece
+              <p class="text-sm md:w-[500px] lg:w-1/2">Contrary to popular belief, is not simply random text. It has
+                roots in a piece
                 of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div>
